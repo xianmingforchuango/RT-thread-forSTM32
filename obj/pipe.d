@@ -1,0 +1,12 @@
+..\obj\pipe.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\components\drivers\src\pipe.c
+..\obj\pipe.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rthw.h
+..\obj\pipe.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtthread.h
+..\obj\pipe.o: ..\apps\rtconfig.h
+..\obj\pipe.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtdebug.h
+..\obj\pipe.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtdef.h
+..\obj\pipe.o: C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h
+..\obj\pipe.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtservice.h
+..\obj\pipe.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtm.h
+..\obj\pipe.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtthread.h
+..\obj\pipe.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\components\drivers\include\rtdevice.h
+..\obj\pipe.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\components\drivers\include\drivers/serial.h

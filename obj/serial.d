@@ -1,0 +1,12 @@
+..\obj\serial.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\components\drivers\serial\serial.c
+..\obj\serial.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rthw.h
+..\obj\serial.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtthread.h
+..\obj\serial.o: ..\apps\rtconfig.h
+..\obj\serial.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtdebug.h
+..\obj\serial.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtdef.h
+..\obj\serial.o: C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h
+..\obj\serial.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtservice.h
+..\obj\serial.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtm.h
+..\obj\serial.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtthread.h
+..\obj\serial.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\components\drivers\include\rtdevice.h
+..\obj\serial.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\components\drivers\include\drivers/serial.h
