@@ -1,4 +1,4 @@
-..\obj\showmem.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\libcpu\arm\common\showmem.c
+..\obj\showmem.o: ..\rt-thread-2.0.1\libcpu\arm\common\showmem.c
 ..\obj\showmem.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtthread.h
 ..\obj\showmem.o: ..\apps\rtconfig.h
 ..\obj\showmem.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtdebug.h

@@ -1,5 +1,5 @@
-..\obj\components.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\components\init\components.c
-..\obj\components.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\components\init\components.h
+..\obj\components.o: ..\rt-thread-2.0.1\components\init\components.c
+..\obj\components.o: ..\rt-thread-2.0.1\components\init\components.h
 ..\obj\components.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtthread.h
 ..\obj\components.o: ..\apps\rtconfig.h
 ..\obj\components.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtdebug.h

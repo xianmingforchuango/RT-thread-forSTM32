@@ -1,4 +1,4 @@
-..\obj\pipe.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\components\drivers\src\pipe.c
+..\obj\pipe.o: ..\rt-thread-2.0.1\components\drivers\src\pipe.c
 ..\obj\pipe.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rthw.h
 ..\obj\pipe.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtthread.h
 ..\obj\pipe.o: ..\apps\rtconfig.h

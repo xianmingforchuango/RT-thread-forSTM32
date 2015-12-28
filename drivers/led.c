@@ -18,7 +18,7 @@
 #ifdef STM32_SIMULATOR
 #define led1_rcc                    RCC_APB2Periph_GPIOD
 #define led1_gpio                   GPIOD
-#define led1_pin                    (GPIO_Pin_5)
+#define led1_pin                    (GPIO_Pin_2)
 
 #define led2_rcc                    RCC_APB2Periph_GPIOD
 #define led2_gpio                   GPIOD
@@ -28,7 +28,7 @@
 
 #define led1_rcc                    RCC_APB2Periph_GPIOD
 #define led1_gpio                   GPIOD
-#define led1_pin                    (GPIO_Pin_5)
+#define led1_pin                    (GPIO_Pin_2)
 
 #define led2_rcc                    RCC_APB2Periph_GPIOD
 #define led2_gpio                   GPIOD

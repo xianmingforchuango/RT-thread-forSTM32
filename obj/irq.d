@@ -1,4 +1,4 @@
-..\obj\irq.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\src\irq.c
+..\obj\irq.o: ..\rt-thread-2.0.1\src\irq.c
 ..\obj\irq.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rthw.h
 ..\obj\irq.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtthread.h
 ..\obj\irq.o: ..\apps\rtconfig.h

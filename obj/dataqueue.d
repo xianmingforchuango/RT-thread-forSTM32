@@ -1,4 +1,4 @@
-..\obj\dataqueue.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\components\drivers\src\dataqueue.c
+..\obj\dataqueue.o: ..\rt-thread-2.0.1\components\drivers\src\dataqueue.c
 ..\obj\dataqueue.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtthread.h
 ..\obj\dataqueue.o: ..\apps\rtconfig.h
 ..\obj\dataqueue.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtdebug.h

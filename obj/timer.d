@@ -1,4 +1,4 @@
-..\obj\timer.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\src\timer.c
+..\obj\timer.o: ..\rt-thread-2.0.1\src\timer.c
 ..\obj\timer.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtthread.h
 ..\obj\timer.o: ..\apps\rtconfig.h
 ..\obj\timer.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtdebug.h

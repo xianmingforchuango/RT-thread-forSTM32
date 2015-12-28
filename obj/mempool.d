@@ -1,4 +1,4 @@
-..\obj\mempool.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\src\mempool.c
+..\obj\mempool.o: ..\rt-thread-2.0.1\src\mempool.c
 ..\obj\mempool.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rthw.h
 ..\obj\mempool.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtthread.h
 ..\obj\mempool.o: ..\apps\rtconfig.h

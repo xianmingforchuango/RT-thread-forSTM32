@@ -1,4 +1,4 @@
-..\obj\ringbuffer.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\components\drivers\src\ringbuffer.c
+..\obj\ringbuffer.o: ..\rt-thread-2.0.1\components\drivers\src\ringbuffer.c
 ..\obj\ringbuffer.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtthread.h
 ..\obj\ringbuffer.o: ..\apps\rtconfig.h
 ..\obj\ringbuffer.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtdebug.h

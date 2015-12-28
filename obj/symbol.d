@@ -1,5 +1,5 @@
-..\obj\symbol.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\components\finsh\symbol.c
-..\obj\symbol.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\components\finsh\finsh.h
+..\obj\symbol.o: ..\rt-thread-2.0.1\components\finsh\symbol.c
+..\obj\symbol.o: ..\rt-thread-2.0.1\components\finsh\finsh.h
 ..\obj\symbol.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtthread.h
 ..\obj\symbol.o: ..\apps\rtconfig.h
 ..\obj\symbol.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtdebug.h

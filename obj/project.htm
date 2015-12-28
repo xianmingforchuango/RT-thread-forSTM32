@@ -3,7 +3,7 @@
 <title>Static Call Graph - [..\obj\project.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image ..\obj\project.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5.03 [Build 76]: Last Updated: Wed Dec 23 16:30:42 2015
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5.03 [Build 76]: Last Updated: Mon Dec 28 09:27:48 2015
 <BR><P>
 <H3>Maximum Stack Usage =        648 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -746,7 +746,6 @@ Global Symbols
 <LI><a href="#[c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_interrupt_enter
 <LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_system_heap_init
 <LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
-<LI><a href="#[1a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_rt_scheduler_stack_check
 <LI><a href="#[1a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_object_find
 <LI><a href="#[19c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_realloc
 <LI><a href="#[170]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_control
@@ -793,6 +792,7 @@ Global Symbols
 <LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_exit
 <LI><a href="#[1a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_schedule_remove_thread
 <LI><a href="#[1a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_schedule_insert_thread
+<LI><a href="#[1a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_rt_scheduler_stack_check
 </UL>
 
 <P><STRONG><a name="[df]"></a>rt_hw_interrupt_enable</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, context_rvds.o(.text))
@@ -2212,7 +2212,6 @@ Global Symbols
 <LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_startup
 <LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_thread_init
 <LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;finsh_set_device
-<LI><a href="#[1a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_rt_scheduler_stack_check
 <LI><a href="#[1a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_object_find
 <LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;list_mem
 <LI><a href="#[19c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_realloc
@@ -2298,6 +2297,7 @@ Global Symbols
 <LI><a href="#[1ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_rt_thread_init
 <LI><a href="#[1a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_schedule_remove_thread
 <LI><a href="#[1a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_schedule_insert_thread
+<LI><a href="#[1a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_rt_scheduler_stack_check
 </UL>
 
 <P><STRONG><a name="[bd]"></a>rt_show_version</STRONG> (Thumb, 38 bytes, Stack size 8 bytes, kservice.o(.text))
@@ -2578,8 +2578,8 @@ Global Symbols
 <LI><a href="#[1a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_context_switch
 <LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_enable
 <LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_hw_interrupt_disable
-<LI><a href="#[1a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_rt_scheduler_stack_check
 <LI><a href="#[1a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_ffs
+<LI><a href="#[1a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_rt_scheduler_stack_check
 </UL>
 <BR>[Called By]<UL><LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_exit_critical
 <LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rt_data_queue_reset

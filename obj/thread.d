@@ -1,4 +1,4 @@
-..\obj\thread.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\src\thread.c
+..\obj\thread.o: ..\rt-thread-2.0.1\src\thread.c
 ..\obj\thread.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtthread.h
 ..\obj\thread.o: ..\apps\rtconfig.h
 ..\obj\thread.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtdebug.h

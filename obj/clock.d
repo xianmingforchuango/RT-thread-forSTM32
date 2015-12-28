@@ -1,4 +1,4 @@
-..\obj\clock.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\src\clock.c
+..\obj\clock.o: ..\rt-thread-2.0.1\src\clock.c
 ..\obj\clock.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rthw.h
 ..\obj\clock.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtthread.h
 ..\obj\clock.o: ..\apps\rtconfig.h

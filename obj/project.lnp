@@ -47,9 +47,12 @@
 "..\obj\irq.o"
 "..\obj\kservice.o"
 "..\obj\mem.o"
+"..\obj\memheap.o"
 "..\obj\mempool.o"
+"..\obj\module.o"
 "..\obj\object.o"
 "..\obj\scheduler.o"
+"..\obj\slab.o"
 "..\obj\thread.o"
 "..\obj\timer.o"
 "..\obj\cmd.o"
@@ -73,4 +76,4 @@
 --keep __fsym_* --keep __vsym_*   --keep __rt_init*
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
---list "..\project.map" -o ..\obj\project.axf
+--list "..\obj\project.map" -o ..\obj\project.axf

@@ -1,6 +1,6 @@
-..\obj\finsh_ops.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\components\finsh\finsh_ops.c
-..\obj\finsh_ops.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\components\finsh\finsh_ops.h
-..\obj\finsh_ops.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\components\finsh\finsh_vm.h
+..\obj\finsh_ops.o: ..\rt-thread-2.0.1\components\finsh\finsh_ops.c
+..\obj\finsh_ops.o: ..\rt-thread-2.0.1\components\finsh\finsh_ops.h
+..\obj\finsh_ops.o: ..\rt-thread-2.0.1\components\finsh\finsh_vm.h
 ..\obj\finsh_ops.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\components\finsh\finsh.h
 ..\obj\finsh_ops.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtthread.h
 ..\obj\finsh_ops.o: ..\apps\rtconfig.h
@@ -13,4 +13,4 @@
 ..\obj\finsh_ops.o: C:\Keil\ARM\ARMCC\bin\..\include\ctype.h
 ..\obj\finsh_ops.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
 ..\obj\finsh_ops.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
-..\obj\finsh_ops.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\components\finsh\finsh_var.h
+..\obj\finsh_ops.o: ..\rt-thread-2.0.1\components\finsh\finsh_var.h

@@ -1,4 +1,4 @@
-..\obj\finsh_node.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\components\finsh\finsh_node.c
+..\obj\finsh_node.o: ..\rt-thread-2.0.1\components\finsh\finsh_node.c
 ..\obj\finsh_node.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\components\finsh\finsh.h
 ..\obj\finsh_node.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtthread.h
 ..\obj\finsh_node.o: ..\apps\rtconfig.h
@@ -11,7 +11,7 @@
 ..\obj\finsh_node.o: C:\Keil\ARM\ARMCC\bin\..\include\ctype.h
 ..\obj\finsh_node.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
 ..\obj\finsh_node.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
-..\obj\finsh_node.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\components\finsh\finsh_node.h
-..\obj\finsh_node.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\components\finsh\finsh_error.h
-..\obj\finsh_node.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\components\finsh\finsh_var.h
-..\obj\finsh_node.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\components\finsh\finsh_heap.h
+..\obj\finsh_node.o: ..\rt-thread-2.0.1\components\finsh\finsh_node.h
+..\obj\finsh_node.o: ..\rt-thread-2.0.1\components\finsh\finsh_error.h
+..\obj\finsh_node.o: ..\rt-thread-2.0.1\components\finsh\finsh_var.h
+..\obj\finsh_node.o: ..\rt-thread-2.0.1\components\finsh\finsh_heap.h

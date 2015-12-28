@@ -1,4 +1,4 @@
-..\obj\finsh_var.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\components\finsh\finsh_var.c
+..\obj\finsh_var.o: ..\rt-thread-2.0.1\components\finsh\finsh_var.c
 ..\obj\finsh_var.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\components\finsh\finsh.h
 ..\obj\finsh_var.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtthread.h
 ..\obj\finsh_var.o: ..\apps\rtconfig.h
@@ -11,4 +11,4 @@
 ..\obj\finsh_var.o: C:\Keil\ARM\ARMCC\bin\..\include\ctype.h
 ..\obj\finsh_var.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
 ..\obj\finsh_var.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
-..\obj\finsh_var.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\components\finsh\finsh_var.h
+..\obj\finsh_var.o: ..\rt-thread-2.0.1\components\finsh\finsh_var.h

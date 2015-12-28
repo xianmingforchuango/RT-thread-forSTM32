@@ -1,4 +1,4 @@
-..\obj\completion.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\components\drivers\src\completion.c
+..\obj\completion.o: ..\rt-thread-2.0.1\components\drivers\src\completion.c
 ..\obj\completion.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rthw.h
 ..\obj\completion.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtthread.h
 ..\obj\completion.o: ..\apps\rtconfig.h

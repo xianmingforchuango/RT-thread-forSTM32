@@ -1,5 +1,5 @@
-..\obj\msh.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\components\finsh\msh.c
-..\obj\msh.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\components\finsh\msh.h
+..\obj\msh.o: ..\rt-thread-2.0.1\components\finsh\msh.c
+..\obj\msh.o: ..\rt-thread-2.0.1\components\finsh\msh.h
 ..\obj\msh.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtthread.h
 ..\obj\msh.o: ..\apps\rtconfig.h
 ..\obj\msh.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtdebug.h

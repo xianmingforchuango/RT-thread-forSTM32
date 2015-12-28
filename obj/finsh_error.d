@@ -1,5 +1,5 @@
-..\obj\finsh_error.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\components\finsh\finsh_error.c
-..\obj\finsh_error.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\components\finsh\finsh_error.h
+..\obj\finsh_error.o: ..\rt-thread-2.0.1\components\finsh\finsh_error.c
+..\obj\finsh_error.o: ..\rt-thread-2.0.1\components\finsh\finsh_error.h
 ..\obj\finsh_error.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\components\finsh\finsh.h
 ..\obj\finsh_error.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtthread.h
 ..\obj\finsh_error.o: ..\apps\rtconfig.h

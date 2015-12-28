@@ -1,4 +1,4 @@
-..\obj\scheduler.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\src\scheduler.c
+..\obj\scheduler.o: ..\rt-thread-2.0.1\src\scheduler.c
 ..\obj\scheduler.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtthread.h
 ..\obj\scheduler.o: ..\apps\rtconfig.h
 ..\obj\scheduler.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtdebug.h
