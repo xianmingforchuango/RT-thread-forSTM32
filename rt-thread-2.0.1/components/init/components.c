@@ -109,12 +109,15 @@ void rt_components_init(void)
 #endif
 
 #ifdef RT_USING_LWIP
+		 
 	/* initialize lwip stack */
 	/* register ethernetif device */
-	eth_system_device_init();
-
+		
+	
+  
 	/* initialize lwip system */
-	lwip_system_init();
+	
+	//lwip_system_init();
 	rt_kprintf("TCP/IP initialized!\n");
 #endif
 

@@ -50,7 +50,7 @@ void assert_failed(u8* file, u32 line)
 
     while (1) ;
 }
-
+extern void rt_platform_init(void);
 /**
  * This function will startup RT-Thread RTOS.
  */
@@ -61,6 +61,11 @@ void rtthread_startup(void)
 
     /* show version */
     rt_show_version();
+	   /* init tick */
+    rt_system_tick_init();
+
+    /* init kernel object */
+    rt_system_object_init();
 
 #ifdef RT_USING_HEAP
 #if STM32_EXT_SRAM
@@ -86,6 +91,8 @@ void rtthread_startup(void)
     /* init timer thread */
     rt_system_timer_thread_init();
 
+		rt_platform_init(); 
+		
     /* init application */
     rt_application_init();
 

@@ -91,10 +91,13 @@ void rt_init_thread_entry(void* parameter)
 {
 #ifdef RT_USING_COMPONENTS_INIT
     /* initialization RT-Thread Components */
-    rt_components_init();
+	
+   // rt_components_init();
+	  
 #endif
 
 #ifdef  RT_USING_FINSH
+	  finsh_system_init();
     finsh_set_device(RT_CONSOLE_DEVICE_NAME);
 #endif  /* RT_USING_FINSH */
 
@@ -140,12 +143,36 @@ void rt_init_thread_entry(void* parameter)
 #endif /* #ifdef RT_USING_RTGUI */
 }
 
+
+
+#ifdef RT_USING_LWIP
+/**
+  ******************************************************************************
+  * @brief  LwIPÍøÂçÄ£¿é³õÊ¼»¯
+  * @param  None
+  * @retval None
+  ******************************************************************************
+  */
+void thread_net_init(void* parameter)
+{
+    extern void lwip_sys_init(void);
+    
+	  extern void udpserv();
+    extern rt_err_t enc28j60_attach(const char * spi_device_name);
+	    eth_system_device_init();
+	    enc28j60_attach("spi20");	                      
+		  //udpserv();
+	     
+	     lwip_system_init();
+	    rt_device_init_all(); 
+}
+#endif
+
 int rt_application_init(void)
 {
-    rt_thread_t init_thread;
-
+  
+	rt_thread_t init_thread;
     rt_err_t result;
-
     /* init led thread */
     result = rt_thread_init(&led_thread,
                             "led",
@@ -159,6 +186,8 @@ int rt_application_init(void)
     {
         rt_thread_startup(&led_thread);
     }
+														
+		
 
 #if (RT_THREAD_PRIORITY_MAX == 32)
     init_thread = rt_thread_create("init",
@@ -172,6 +201,20 @@ int rt_application_init(void)
 
     if (init_thread != RT_NULL)
         rt_thread_startup(init_thread);
+		
+#ifdef RT_USING_LWIP
+{
+    rt_thread_t net_thread;
+
+    net_thread = rt_thread_create(
+        "NetInit",
+        thread_net_init, RT_NULL,
+        2048,
+        9, 20);
+    if (net_thread != RT_NULL) 
+			rt_thread_startup(net_thread);
+}
+#endif
 
     return 0;
 }

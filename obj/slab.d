@@ -1,10 +1,10 @@
 ..\obj\slab.o: ..\rt-thread-2.0.1\src\slab.c
-..\obj\slab.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rthw.h
-..\obj\slab.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtthread.h
+..\obj\slab.o: ..\rt-thread-2.0.1\include\rthw.h
+..\obj\slab.o: ..\rt-thread-2.0.1\include\rtthread.h
 ..\obj\slab.o: ..\apps\rtconfig.h
-..\obj\slab.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtdebug.h
-..\obj\slab.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtdef.h
+..\obj\slab.o: ..\rt-thread-2.0.1\include\rtdebug.h
+..\obj\slab.o: ..\rt-thread-2.0.1\include\rtdef.h
 ..\obj\slab.o: C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h
-..\obj\slab.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtservice.h
-..\obj\slab.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtm.h
-..\obj\slab.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtthread.h
+..\obj\slab.o: ..\rt-thread-2.0.1\include\rtservice.h
+..\obj\slab.o: ..\rt-thread-2.0.1\include\rtm.h
+..\obj\slab.o: ..\rt-thread-2.0.1\include\rtthread.h

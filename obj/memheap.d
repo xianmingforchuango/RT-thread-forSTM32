@@ -1,10 +1,10 @@
 ..\obj\memheap.o: ..\rt-thread-2.0.1\src\memheap.c
-..\obj\memheap.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rthw.h
-..\obj\memheap.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtthread.h
+..\obj\memheap.o: ..\rt-thread-2.0.1\include\rthw.h
+..\obj\memheap.o: ..\rt-thread-2.0.1\include\rtthread.h
 ..\obj\memheap.o: ..\apps\rtconfig.h
-..\obj\memheap.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtdebug.h
-..\obj\memheap.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtdef.h
+..\obj\memheap.o: ..\rt-thread-2.0.1\include\rtdebug.h
+..\obj\memheap.o: ..\rt-thread-2.0.1\include\rtdef.h
 ..\obj\memheap.o: C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h
-..\obj\memheap.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtservice.h
-..\obj\memheap.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtm.h
-..\obj\memheap.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtthread.h
+..\obj\memheap.o: ..\rt-thread-2.0.1\include\rtservice.h
+..\obj\memheap.o: ..\rt-thread-2.0.1\include\rtm.h
+..\obj\memheap.o: ..\rt-thread-2.0.1\include\rtthread.h

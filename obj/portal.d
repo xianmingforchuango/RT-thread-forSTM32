@@ -1,0 +1,13 @@
+..\obj\portal.o: ..\rt-thread-2.0.1\components\drivers\src\portal.c
+..\obj\portal.o: ..\rt-thread-2.0.1\include\rtthread.h
+..\obj\portal.o: ..\apps\rtconfig.h
+..\obj\portal.o: ..\rt-thread-2.0.1\include\rtdebug.h
+..\obj\portal.o: ..\rt-thread-2.0.1\include\rtdef.h
+..\obj\portal.o: C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h
+..\obj\portal.o: ..\rt-thread-2.0.1\include\rtservice.h
+..\obj\portal.o: ..\rt-thread-2.0.1\include\rtm.h
+..\obj\portal.o: ..\rt-thread-2.0.1\include\rtthread.h
+..\obj\portal.o: ..\rt-thread-2.0.1\components\drivers\include\rtdevice.h
+..\obj\portal.o: ..\rt-thread-2.0.1\components\drivers\include\drivers/spi.h
+..\obj\portal.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+..\obj\portal.o: ..\rt-thread-2.0.1\components\drivers\include\drivers/serial.h

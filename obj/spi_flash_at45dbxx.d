@@ -1,0 +1,13 @@
+..\obj\spi_flash_at45dbxx.o: ..\rt-thread-2.0.1\components\drivers\spi\spi_flash_at45dbxx.c
+..\obj\spi_flash_at45dbxx.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+..\obj\spi_flash_at45dbxx.o: ..\rt-thread-2.0.1\components\drivers\spi\spi_flash_at45dbxx.h
+..\obj\spi_flash_at45dbxx.o: ..\rt-thread-2.0.1\include\rtthread.h
+..\obj\spi_flash_at45dbxx.o: ..\apps\rtconfig.h
+..\obj\spi_flash_at45dbxx.o: ..\rt-thread-2.0.1\include\rtdebug.h
+..\obj\spi_flash_at45dbxx.o: ..\rt-thread-2.0.1\include\rtdef.h
+..\obj\spi_flash_at45dbxx.o: C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h
+..\obj\spi_flash_at45dbxx.o: ..\rt-thread-2.0.1\include\rtservice.h
+..\obj\spi_flash_at45dbxx.o: ..\rt-thread-2.0.1\include\rtm.h
+..\obj\spi_flash_at45dbxx.o: ..\rt-thread-2.0.1\include\rtthread.h
+..\obj\spi_flash_at45dbxx.o: ..\rt-thread-2.0.1\components\drivers\include\drivers/spi.h
+..\obj\spi_flash_at45dbxx.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h

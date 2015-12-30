@@ -1,12 +1,12 @@
 ..\obj\led.o: ..\drivers\led.c
-..\obj\led.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtthread.h
+..\obj\led.o: ..\rt-thread-2.0.1\include\rtthread.h
 ..\obj\led.o: ..\apps\rtconfig.h
-..\obj\led.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtdebug.h
-..\obj\led.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtdef.h
+..\obj\led.o: ..\rt-thread-2.0.1\include\rtdebug.h
+..\obj\led.o: ..\rt-thread-2.0.1\include\rtdef.h
 ..\obj\led.o: C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h
-..\obj\led.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtservice.h
-..\obj\led.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtm.h
-..\obj\led.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtthread.h
+..\obj\led.o: ..\rt-thread-2.0.1\include\rtservice.h
+..\obj\led.o: ..\rt-thread-2.0.1\include\rtm.h
+..\obj\led.o: ..\rt-thread-2.0.1\include\rtthread.h
 ..\obj\led.o: ..\third_part\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
 ..\obj\led.o: ..\third_part\CMSIS\CM3\CoreSupport\core_cm3.h
 ..\obj\led.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
@@ -36,7 +36,7 @@
 ..\obj\led.o: ..\third_part\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h
 ..\obj\led.o: ..\third_part\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h
 ..\obj\led.o: ..\third_part\STM32F10x_StdPeriph_Driver\inc\misc.h
-..\obj\led.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\components\finsh\finsh.h
+..\obj\led.o: ..\rt-thread-2.0.1\components\finsh\finsh.h
 ..\obj\led.o: C:\Keil\ARM\ARMCC\bin\..\include\ctype.h
 ..\obj\led.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
 ..\obj\led.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h

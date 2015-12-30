@@ -30,11 +30,11 @@
 ..\obj\stm32f10x_it.o: ..\third_part\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h
 ..\obj\stm32f10x_it.o: ..\third_part\STM32F10x_StdPeriph_Driver\inc\misc.h
 ..\obj\stm32f10x_it.o: ..\drivers\board.h
-..\obj\stm32f10x_it.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtthread.h
+..\obj\stm32f10x_it.o: ..\rt-thread-2.0.1\include\rtthread.h
 ..\obj\stm32f10x_it.o: ..\apps\rtconfig.h
-..\obj\stm32f10x_it.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtdebug.h
-..\obj\stm32f10x_it.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtdef.h
+..\obj\stm32f10x_it.o: ..\rt-thread-2.0.1\include\rtdebug.h
+..\obj\stm32f10x_it.o: ..\rt-thread-2.0.1\include\rtdef.h
 ..\obj\stm32f10x_it.o: C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h
-..\obj\stm32f10x_it.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtservice.h
-..\obj\stm32f10x_it.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtm.h
-..\obj\stm32f10x_it.o: E:\download\rt-thread-v2.0.1\rt-thread-2.0.1\include\rtthread.h
+..\obj\stm32f10x_it.o: ..\rt-thread-2.0.1\include\rtservice.h
+..\obj\stm32f10x_it.o: ..\rt-thread-2.0.1\include\rtm.h
+..\obj\stm32f10x_it.o: ..\rt-thread-2.0.1\include\rtthread.h
